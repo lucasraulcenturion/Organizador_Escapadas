@@ -1,74 +1,91 @@
 # Itinerario de 3 Días en Mendoza - Deportes Invernales
 
-## Día 1 — Valle de Uco
-09:00-11:00 Esquí en Los Andes (Estación de Esquí Los Penitentes)  
-11:15-13:00 Clase de esquí para principiantes (Escuela de Esquí)  
-13:15-14:30 Almuerzo (Restaurante La Cabaña, opciones de menú a partir de ARS 1500)  
-15:00-17:00 Paseo en trineo (Los Penitentes)  
-17:15-19:00 Visita a bodegas (Bodega Salentein)  
-20:00 Cena (Restaurante Siete Fuegos, opciones de menú a partir de ARS 3000)  
+## Día 1 — Valle de Uco / Esquí
+09:00-11:00 Esquí en Cerro Castor (Estación de Esquí)  
+*Traslado: 1 hora desde Mendoza*
+
+11:15-13:00 Clases de esquí para principiantes (Cerro Castor)  
+
+13:15-14:30 Almuerzo  
+*Opciones: Restaurante en la base de la montaña o picnic con productos locales*
+
+15:00-17:00 Esquí libre (Cerro Castor)  
+
+17:15-19:00 Visita a la bodega de la zona (Bodega Salentein)  
+*Traslado: 30 minutos desde Cerro Castor*
+
+20:00 Cena  
+*Opciones: Restaurante de la bodega o parrilla local*
 
 ### Resumen:
-- Actividades de esquí y trineo.
-- Visita a bodega para degustación de vinos.
+- Actividades enfocadas en esquí y degustación de vinos.
+- Ideal para disfrutar de la nieve y la gastronomía local.
 
 ### Tips:
-- Llevar ropa adecuada para el frío y protector solar.
+- Llevar ropa adecuada para el frío y protección solar.
 - Reservar clases de esquí con anticipación.
 
-### Presupuesto:
-- Bajo: ARS 15,000
-- Medio: ARS 25,000
-- Alto: ARS 40,000
+### Presupuesto: Medio (ARS 70,000)
 
 ---
 
-## Día 2 — Parque Provincial Aconcagua
-09:00-11:00 Caminata por senderos (Parque Provincial Aconcagua)  
-11:15-13:00 Escalada en roca (Guías locales)  
-13:15-14:30 Almuerzo (Picnic en el parque, comprar en el mercado local)  
-15:00-17:00 Observación de fauna y flora (Guía naturalista)  
-17:15-19:00 Taller de fotografía de paisajes (Guía especializado)  
-20:00 Cena (Restaurante El Faro, opciones de menú a partir de ARS 2500)  
+## Día 2 — Alta Montaña / Aventura
+09:00-11:00 Excursión a la montaña (Parque Provincial Aconcagua)  
+*Traslado: 2 horas desde Mendoza*
+
+11:15-13:00 Senderismo en el Parque (ruta al Mirador del Aconcagua)  
+
+13:15-14:30 Almuerzo  
+*Opciones: Box lunch o restaurante en la zona*
+
+15:00-17:00 Actividades de aventura (tirolesa o rappel)  
+
+17:15-19:00 Regreso a Mendoza  
+*Traslado: 2 horas*
+
+20:00 Cena  
+*Opciones: Restaurante local en Mendoza*
 
 ### Resumen:
-- Actividades de senderismo y escalada.
-- Taller de fotografía en un entorno natural.
+- Actividades de aventura en un entorno natural impresionante.
+- Oportunidad para disfrutar de vistas espectaculares.
 
 ### Tips:
-- Llevar suficiente agua y snacks.
-- Usar calzado adecuado para senderismo.
+- Llevar calzado cómodo y abrigo.
+- Hidratarse adecuadamente durante las actividades.
 
-### Presupuesto:
-- Bajo: ARS 10,000
-- Medio: ARS 20,000
-- Alto: ARS 35,000
+### Presupuesto: Alto (ARS 80,000)
 
 ---
 
-## Día 3 — Ciudad de Mendoza
-09:00-11:00 Tour en bicicleta por la ciudad (Alquiler de bicicletas)  
-11:15-13:00 Visita a museos (Museo del Área Fundacional)  
-13:15-14:30 Almuerzo (Restaurante El Club de la Milanesa, opciones de menú a partir de ARS 1200)  
-15:00-17:00 Tarde de spa y relajación (Spa local)  
-17:15-19:00 Compras en el mercado artesanal (Mercado Central)  
-20:00 Cena (Restaurante La Marchigiana, opciones de menú a partir de ARS 2500)  
+## Día 3 — Relax y Cultura
+09:00-11:00 Visita a bodegas (Bodega Catena Zapata)  
+*Traslado: 30 minutos desde el hotel*
+
+11:15-13:00 Degustación de vinos y recorrido por la bodega  
+
+13:15-14:30 Almuerzo  
+*Opciones: Restaurante de la bodega o en el centro de Mendoza*
+
+15:00-17:00 Paseo por el Parque General San Martín  
+
+17:15-19:00 Visita al Museo del Área Fundacional  
+
+20:00 Cena  
+*Opciones: Restaurante de cocina regional o gourmet en Mendoza*
 
 ### Resumen:
-- Actividades culturales y de relajación.
-- Oportunidad de compras de artesanías locales.
+- Un día de relax, cultura y gastronomía.
+- Perfecto para cerrar el viaje con un toque de elegancia.
 
 ### Tips:
-- Probar el famoso asado mendocino.
-- Llevar efectivo para las compras en el mercado.
+- Reservar visitas a bodegas con anticipación.
+- Probar platos locales en el almuerzo.
 
-### Presupuesto:
-- Bajo: ARS 12,000
-- Medio: ARS 22,000
-- Alto: ARS 30,000
+### Presupuesto: Bajo (ARS 50,000)
 
 ---
 
-### Alertas QA:
-- Verificar el clima antes de las actividades al aire libre.
-- Confirmar reservas de restaurantes y actividades con anticipación.
+## Alertas QA:
+- Verificar condiciones climáticas antes de las actividades al aire libre.
+- Confirmar horarios de apertura de bodegas y museos.
