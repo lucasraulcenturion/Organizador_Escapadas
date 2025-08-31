@@ -1,131 +1,72 @@
 # Organizador de Escapadas 🧳✨
 
-## Introducción
-**Nombre del proyecto:** Organizador de Viajes Cortos y Escapadas  
-
-### Presentación del problema  
-Planear escapadas de 2 a 3 días suele ser complicado por:  
-- Pérdida de tiempo comparando opciones dispersas (transporte, actividades, comidas).  
-- Dificultad para combinar horarios, distancias y presupuesto limitado.  
-- Falta de propuestas personalizadas según los intereses del viajero.  
-- Visualización poco clara del itinerario (qué hacer, cuándo, dónde y cuánto cuesta).  
-
-Esto genera itinerarios desbalanceados, sobrecostos, tiempos muertos y pérdida de oportunidades. Resolver estas cuestiones mejora la experiencia, eficiencia y costo del viaje.  
-
-### Propuesta de solución  
-El proyecto desarrolla un sistema de **prompts con técnicas de Fast Prompting** que combina:  
-- **Texto → Texto**: para generar itinerarios personalizados, validar datos de entrada, calcular presupuestos y hacer controles de calidad (QA).  
-- **Texto → Imagen**: para crear activos visuales como mapas, flyers de portada e infografías de gastos/tiempo.  
-
-Los entregables principales son:  
-- Itinerario detallado (día a día, con horarios, alternativas low-cost/premium).  
-- Comparativa de transporte.  
-- Recomendaciones gastronómicas y culturales según perfil del viajero.  
-- Presupuesto estimado (Base, Conservador, Optimista).  
-- Activos visuales del itinerario.  
+# Pre-entrega 2 — Fast Prompting en Acción
+**Alumno:** Lucas Centurión  
+**Curso:** Generación de Prompts con IA  
 
 ---
 
-## Objetivos 🎯
-- Automatizar la planificación de viajes cortos (2–3 días) con IA.  
-- Personalizar recomendaciones según intereses, presupuesto y modo de viaje (Relax, Exprímelo, Familiar, etc.).  
-- Optimizar itinerarios evitando traslados innecesarios.  
-- Ofrecer un presupuesto claro y visualizaciones prácticas.  
-- Reducir costos de implementación utilizando prompts optimizados y consultas mínimas a la API.  
+## 📌 Introducción
+Este proyecto corresponde a la **Pre-entrega 2** de la cursada.  
+El desafío consiste en aplicar la técnica de **Fast Prompting** para resolver un problema real mediante la construcción iterativa de prompts y la optimización de sus resultados.  
+
+El problema elegido es la **planificación rápida de escapadas de 2–3 días**, considerando parámetros como destino, cantidad de días, presupuesto, intereses y modo de viaje.  
 
 ---
 
-## Metodología ⚡
-El proyecto se construyó aplicando **Fast Prompting**, dividiendo el problema en prompts especializados:  
-
-1. **Intake Prompt (entrada)**: normaliza datos, valida info y completa campos faltantes con supuestos razonables.  
-2. **Itinerario Prompt**: genera un plan detallado de N días.  
-3. **Prompts auxiliares**: QA relámpago, comparativa de transporte, desglose de presupuesto.  
-4. **Prompts visuales (Texto → Imagen)**: mapa ilustrado, flyer de portada e infografía de gastos/tiempo.  
-
----
-
-## Herramientas y Tecnologías 🛠️
-- **Lenguaje**: Python 3.  
-- **Entorno**: Jupyter Notebook.  
-- **Librerías**: `openai`, `dotenv`, `json`.  
-- **Modelos**: GPT-4o-mini.  
-- **Generación de imágenes**: NightCafe o Leonardo.ai.  
-
-Justificación:  
-- **Fast Prompting** reduce costos al dividir la tarea en prompts precisos.  
-- Python + Jupyter facilita la demostración y documentación.  
+## 🎯 Objetivos
+- Desarrollar un sistema de planificación de viajes cortos utilizando **IA generativa**.  
+- Mostrar la **evolución de prompts** en 6 versiones (Prompt 1 → Prompt 5 Lite).  
+- Incorporar progresivamente técnicas de prompting: zero-shot, structured JSON, role assignment, chain-of-prompts.  
+- Validar resultados con parsing de JSON y control de errores.  
+- Optimizar costos en tokens mediante modularización y versión Lite.  
+- Generar **recursos visuales** (mapa y flyer) con Gemini adaptados al destino.  
 
 ---
 
-## Implementación 💻
-El notebook incluye:  
-1. Configuración de API.  
-2. Prompt Intake → JSON estructurado.  
-3. Prompt Itinerario → Markdown con itinerario.  
-4. Cálculo de tokens y costo.  
-5. Guardado de outputs (`itinerario.txt`).  
-6. *(Opcional)* QA Prompt.  
+## 🛠️ Tecnologías utilizadas
+- **Lenguaje:** Python 3  
+- **Librerías:**  
+  - `openai` → modelos GPT (gpt-4o-mini).  
+  - `google.genai` → Gemini 2.5 Flash Image para imágenes.  
+  - `dotenv` → gestión de credenciales API.  
+  - `json` → parsing y validación.  
+  - `Pillow` → manejo de imágenes PNG.  
+  - `IPython.display` → visualización inline en Jupyter.  
 
 ---
 
-## Ejemplo de salida 📑
-**Entrada del usuario:**
-```
-Destino: Mendoza
-Días: 3
-Personas: 2
-Presupuesto: 200000 ARS
-Intereses: Deportes Invernales
-Modo de viaje: Exprímelo
-Fecha tentativa: 20/07/2025
-```
+## ⚙️ Metodología
+El desarrollo sigue un enfoque de **Fast Prompting**, aplicando mejoras incrementales en cada prompt:  
 
-**Salida JSON (intake resumido):**
-```json
-{
-  "parametros": {
-    "destino": "Mendoza",
-    "dias": 3,
-    "personas": 2,
-    "presupuesto_por_persona": {"monto": 200000, "moneda": "ARS"},
-    "intereses": ["Deportes Invernales"],
-    "modo_viaje": "Exprímelo",
-    "fechas": "2025-07-20"
-  },
-  "supuestos": ["Se asumió clima invernal y alojamiento céntrico."],
-  "criterios": {
-    "densidad_diaria": "alta",
-    "ventanas_descanso_min": 30,
-    "tope_gasto_diario": {"monto": 70000, "moneda": "ARS"},
-    "franja_horaria": "09:00-20:00"
-  },
-  "alertas": []
-}
-```
-
-**Itinerario generado (fragmento):**
-```
-### Día 1 — Alta Montaña & Ski
-- 09:00–11:00: Traslado a Penitentes
-- 11:15–13:00: Clase de ski / snowboard
-- 13:15–14:30 (almuerzo): Parador de montaña
-- 15:00–17:00: Ski libre
-- 17:15–19:00: Paseo por Uspallata
-- 20:00 (cena): Restaurante cordillerano
-```
+1. **Prompt 1 (Base):** salida libre sin estructura (*zero-shot*).  
+2. **Prompt 2 (Intermedio):** más parámetros y desglose de costos (*instruction prompting*).  
+3. **Prompt 3 (Avanzado):** salida en JSON con helper de parsing (*structured prompting*).  
+4. **Prompt 4 (Optimizado):** normalización, criterios, alertas y generación de imágenes (*role assignment*).  
+5. **Prompt 5 (Ultra):** pipeline en dos etapas (intake + itinerario), medición de costos y modularización (*chain-of-prompts*).  
+6. **Prompt 5 Lite (Minimalista):** versión reducida en consumo, solo mapa + flyer dinámicos, sin infografía (*cost-aware prompting*).  
 
 ---
 
-## Viabilidad ✅
-- **Técnica:** alta. Solo requiere prompts + API.  
-- **Económica:** bajo costo inicial (planes gratuitos/básicos).  
-- **Tiempo:** 2–3 semanas para prototipo con 3 destinos.  
-- **Escalabilidad:** nuevos destinos = reutilización de plantillas.  
+## 📂 Organización del notebook
+- El notebook está dividido en **bloques de Markdown y código**.  
+- Cada Prompt está precedido por un **análisis técnico** que explica:  
+  - Descripción técnica.  
+  - Tecnología aplicada.  
+  - Metodología.  
+  - Mejoras respecto al prompt anterior.  
+- Los resultados se muestran tanto en consola como en **imágenes inline**.  
 
 ---
 
-## Próximos pasos 🚀
-- Integrar generación automática de imágenes.  
-- Ampliar modos de viaje y duración.  
-- Desarrollar interfaz web simple.  
+## ✅ Viabilidad y Justificación
+- Los costos de uso de API se midieron en tokens y se mantuvieron bajos.  
+- El proyecto es **viable en tiempo y recursos**, ya que solo requiere acceso a APIs de OpenAI y Gemini.  
+- La modularización evita repeticiones innecesarias y optimiza el consumo de tokens.  
+
+---
+
+## 🚀 Próximos pasos
+- Automatizar el ingreso de parámetros (destino, presupuesto, intereses) desde un formulario o dataset.  
+- Mejorar la calidad de las imágenes generadas (mapas más contextuales).  
+- Ampliar el sistema hacia una aplicación web interactiva.  
