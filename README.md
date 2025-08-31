@@ -70,3 +70,5 @@ El desarrollo sigue un enfoque de **Fast Prompting**, aplicando mejoras incremen
 - Automatizar el ingreso de parámetros (destino, presupuesto, intereses) desde un formulario o dataset.  
 - Mejorar la calidad de las imágenes generadas (mapas más contextuales).  
 - Ampliar el sistema hacia una aplicación web interactiva.  
+
+
