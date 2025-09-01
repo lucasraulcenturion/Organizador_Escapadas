@@ -78,7 +78,7 @@ El desarrollo sigue un enfoque de **Fast Prompting**, aplicando mejoras incremen
 
 ![warning](https://img.shields.io/badge/Atención-Archivo_pesado-yellow?style=for-the-badge&logo=markdown)
 
-El archivo **`Preentrega_2_Centurion.ipynb`** es bastante **pesado** y, debido a su tamaño, la previsualización online de GitHub puede fallar o no mostrarse correctamente.  
+El archivo **`Preentrega_2_Centurion_Lucas.ipynb`** es bastante **pesado** y, debido a su tamaño, la previsualización online de GitHub puede fallar o no mostrarse correctamente.  
 
 🔽 En caso de que esto ocurra, podés:  
 1. **Descargar el archivo** y ejecutarlo localmente en Jupyter Notebook o VS Code.  
