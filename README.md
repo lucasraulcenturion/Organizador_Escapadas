@@ -73,15 +73,6 @@ El desarrollo sigue un enfoque de **Fast Prompting**, aplicando mejoras incremen
 
 ---
 
-## ⚠️ Advertencia sobre la previsualización del Notebook
-
-El archivo `Preentrega_2_Centurion.ipynb` es **pesado** y, debido a su tamaño, la previsualización online de GitHub puede fallar o no mostrarse correctamente.  
-
-En caso de que esto ocurra, tenés dos alternativas:  
-1. **Descargar el archivo** y ejecutarlo localmente en Jupyter Notebook o VS Code.  
-2. Visualizar su contenido en el archivo **PDF** incluido en este repositorio.  
-
----
 
 ## ⚠️ Advertencia sobre la previsualización del Notebook
 
