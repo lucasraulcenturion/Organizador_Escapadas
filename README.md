@@ -66,6 +66,13 @@ El desarrollo sigue un enfoque de **Fast Prompting**, aplicando mejoras incremen
 
 ---
 
+## 🚀 Próximos pasos
+- Automatizar el ingreso de parámetros (destino, presupuesto, intereses) desde un formulario o dataset.  
+- Mejorar la calidad de las imágenes generadas (mapas más contextuales).  
+- Ampliar el sistema hacia una aplicación web interactiva.  
+
+---
+
 ## ⚠️ Advertencia sobre la previsualización del Notebook
 
 El archivo `Preentrega_2_Centurion.ipynb` es **pesado** y, debido a su tamaño, la previsualización online de GitHub puede fallar o no mostrarse correctamente.  
@@ -73,11 +80,15 @@ El archivo `Preentrega_2_Centurion.ipynb` es **pesado** y, debido a su tamaño, 
 En caso de que esto ocurra, tenés dos alternativas:  
 1. **Descargar el archivo** y ejecutarlo localmente en Jupyter Notebook o VS Code.  
 2. Visualizar su contenido en el archivo **PDF** incluido en este repositorio.  
-👉 Si querés, también puedo armarte la versión con un badge (emoji + resaltado en color) para que quede
 
-## 🚀 Próximos pasos
-- Automatizar el ingreso de parámetros (destino, presupuesto, intereses) desde un formulario o dataset.  
-- Mejorar la calidad de las imágenes generadas (mapas más contextuales).  
-- Ampliar el sistema hacia una aplicación web interactiva.  
+---
 
+## ⚠️ Advertencia sobre la previsualización del Notebook
 
+![warning](https://img.shields.io/badge/Atención-Archivo_pesado-yellow?style=for-the-badge&logo=markdown)
+
+El archivo **`Preentrega_2_Centurion.ipynb`** es bastante **pesado** y, debido a su tamaño, la previsualización online de GitHub puede fallar o no mostrarse correctamente.  
+
+🔽 En caso de que esto ocurra, podés:  
+1. **Descargar el archivo** y ejecutarlo localmente en Jupyter Notebook o VS Code.  
+2. Visualizar su contenido en el archivo **PDF** incluido en este repositorio.  
