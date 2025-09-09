@@ -93,12 +93,13 @@ A partir de datos ingresados por el usuario (destino, fechas, transporte, presup
 - Uso de Gemini para producir:
   * 🗺️ Mapa turístico ilustrado estilo vintage, basado en los puntos clave del itinerario.
   * 🎨 Flyer promocional moderno del destino.
-- Control de Tokens y Costos
+- Control de Tokens y Costos.  
 - Registro de tokens usados y costos de cada prompt textual.
 - Inclusión de costos fijos por imágenes generadas (ej. USD 0.04).
 - Resumen total de uso y gasto acumulado al finalizar.
 
 ✨ Características Destacadas:  
+
 ✅ Interactividad completa en consola: validación de inputs, manejo de errores y reintentos.  
 ✅ Itinerarios realistas y dinámicos: adaptados al perfil del viajero y a la temporada.  
 ✅ Soporte para viajes familiares: lógica condicional para sugerencias con o sin niños.  
@@ -111,115 +112,115 @@ A partir de datos ingresados por el usuario (destino, fechas, transporte, presup
 
 🚀 Cómo usar el Organizador de Escapadas IA
 
-- Clonar o descargar el repositorio
-    git clone https://github.com/usuario/organizador-escapadas.git
-    cd organizador-escapadas
+- Clonar o descargar el repositorio  
+    git clone https://github.com/usuario/organizador-escapadas.git  
+    cd organizador-escapadas  
 
-- Configurar las dependencias
-    Se recomienda usar un entorno virtual (Conda o venv).
-    pip install -r requirements.txt
+- Configurar las dependencias  
+    Se recomienda usar un entorno virtual (Conda o venv).  
+    pip install -r requirements.txt  
 
-    * Dependencias principales:<br>
-        ✅ openai<br>
-        ✅ google-generativeai<br>
-        ✅ python-dotenv<br>
-        ✅ Pillow<br>
-        ✅ IPython<br>
+    * Dependencias principales:  
+        ✅ openai  
+        ✅ google-generativeai  
+        ✅ python-dotenv  
+        ✅ Pillow  
+        ✅ IPython  
 
 - Configurar variables de entorno
-- Crear un archivo .env en la raíz del proyecto con tus claves:<br>
-        ✅ OPENAI_API_KEY=tu_clave_openai<br>
-        ✅ GOOGLE_API_KEY=tu_clave_google<br>
+- Crear un archivo .env en la raíz del proyecto con tus claves:  
+        ✅ OPENAI_API_KEY=tu_clave_openai  
+        ✅ GOOGLE_API_KEY=tu_clave_google  
 
 - Correr el notebook en Jupyter si trabajás en modo interactivo.
 - Ingresar los datos requeridos
-  El asistente pedirá paso a paso:<br>
-        ✅ Destino<br>
-        ✅ Medio de transporte<br>
-        ✅ Cantidad de personas<br>
-        ✅ Fechas de inicio y regreso<br>
-        ✅ Nivel de presupuesto<br>
-        ✅ Modo de viaje<br>
-        ✅ Presencia de niños menores de 12 años (solo si es viaje familiar)<br>
-        ✅ Temporada (alta o baja)<br>
+  El asistente pedirá paso a paso:  
+        ✅ Destino  
+        ✅ Medio de transporte  
+        ✅ Cantidad de personas  
+        ✅ Fechas de inicio y regreso  
+        ✅ Nivel de presupuesto  
+        ✅ Modo de viaje  
+        ✅ Presencia de niños menores de 12 años (solo si es viaje familiar)  
+        ✅ Temporada (alta o baja)  
 
 - Resultados generados
-    *  Al finalizar, se crean varios archivos en el directorio:<br>
-            itinerario_final.txt → itinerario detallado.<br>
-            lugares.json → lista de lugares y servicios detectados.<br>
-            contactos.json → datos de contacto simulados.<br>
-            prompt5lite_Mapa.png → mapa turístico ilustrado.<br>
-            prompt5lite_Flyer.png → flyer promocional.<br>
-            costos_totales.txt → registro de tokens y costos (texto + imágenes).<br>
+    *  Al finalizar, se crean varios archivos en el directorio:  
+            itinerario_final.txt → itinerario detallado.  
+            lugares.json → lista de lugares y servicios detectados.  
+            contactos.json → datos de contacto simulados.  
+            prompt5lite_Mapa.png → mapa turístico ilustrado.  
+            prompt5lite_Flyer.png → flyer promocional.  
+            costos_totales.txt → registro de tokens y costos (texto + imágenes).  
 
 📌 Nota: si corrés el notebook (.ipynb), las imágenes se muestran directamente en las celdas además de guardarse en disco.
 
-## 🖥️ Ejemplo de Ejecución
+## 🖥️ Ejemplo de Ejecución  
 
 - Al ejecutar el programa en consola, el usuario completa los datos paso a paso:
 
 👋 Bienvenido al Organizador de Escapadas IA
-Por favor completá los siguientes datos usando SOLO números:
+Por favor completá los siguientes datos usando SOLO números:  
 
-Destino del viaje (texto libre): Mendoza
+Destino del viaje (texto libre): Mendoza  
 
-Seleccioná el medio de transporte:
-1. Auto
-2. Micro
-3. Avión
-4. Tren
-Seleccione Medio de Transporte: 3
+Seleccioná el medio de transporte:  
+1. Auto  
+2. Micro  
+3. Avión  
+4. Tren  
+Seleccione Medio de Transporte: 3  
 
-Cantidad de personas: 2
+Cantidad de personas: 2  
 
-Fecha de inicio (ej: 05/09/2025): 20/07/2025
-Hora de llegada (HHMM, ej: 1300 para las 13:00): 1300
+Fecha de inicio (ej: 05/09/2025): 20/07/2025  
+Hora de llegada (HHMM, ej: 1300 para las 13:00): 1300  
 
-Fecha de regreso (ej: 07/09/2025): 22/07/2025
-Hora de regreso (HHMM, ej: 0830 para las 8:30): 1830
+Fecha de regreso (ej: 07/09/2025): 22/07/2025  
+Hora de regreso (HHMM, ej: 0830 para las 8:30): 1830  
 
-Seleccioná el nivel de presupuesto:
-1. Bajo → Opciones económicas, transporte público, hostels.
-2. Medio → Balance entre costo y comodidad.
-3. Medio-alto → Hoteles 3-4⭐, experiencias destacadas.
-4. Alto → Lujo, experiencias premium.
-Seleccione el Nivel de Presupuesto: 3
+Seleccioná el nivel de presupuesto:  
+1. Bajo → Opciones económicas, transporte público, hostels.  
+2. Medio → Balance entre costo y comodidad.  
+3. Medio-alto → Hoteles 3-4⭐, experiencias destacadas.  
+4. Alto → Lujo, experiencias premium.  
+Seleccione el Nivel de Presupuesto: 3  
 
-Seleccioná el modo de viaje:
-1. Exprímelo → Aprovechar al máximo cada hora.
-2. Relax → Ritmo tranquilo, descansos largos.
-3. Cultural → Museos, historia, arquitectura.
-4. Gastronómico → Comidas y vinos locales.
-5. Aventura → Deportes y excursiones.
-6. Familiar → Opciones aptas para todas las edades.
-Seleccione el Modo de Viaje: 5
+Seleccioná el modo de viaje:  
+1. Exprímelo → Aprovechar al máximo cada hora.  
+2. Relax → Ritmo tranquilo, descansos largos.  
+3. Cultural → Museos, historia, arquitectura.  
+4. Gastronómico → Comidas y vinos locales.  
+5. Aventura → Deportes y excursiones.  
+6. Familiar → Opciones aptas para todas las edades.  
+Seleccione el Modo de Viaje: 5  
 
-¿En qué temporada vas a viajar?
-1. Alta (vacaciones, feriados largos, temporada turística)
-2. Baja (resto del año)
-¿En qué temporada vas a viajar?: 1
+¿En qué temporada vas a viajar?  
+1. Alta (vacaciones, feriados largos, temporada turística)  
+2. Baja (resto del año)  
+¿En qué temporada vas a viajar?: 1  
 
-## 📋 Resumen generado en consola
+## 📋 Resumen generado en consola  
 
-=== Resumen de tu viaje ===
-Destino: Mendoza
-Medio de transporte: avión
-Duración: 3 días, para 2 personas.
-Llegada: 20/07/2025 a las 13:00
-Regreso: 22/07/2025 a las 18:30
-Presupuesto estimado: medio-alto
-Modo de viaje seleccionado: Aventura
-Temporada: ALTA
+=== Resumen de tu viaje ===  
+Destino: Mendoza  
+Medio de transporte: avión  
+Duración: 3 días, para 2 personas    
+Llegada: 20/07/2025 a las 13:00  
+Regreso: 22/07/2025 a las 18:30  
+Presupuesto estimado: medio-alto  
+Modo de viaje seleccionado: Aventura  
+Temporada: ALTA  
 
-## 📂 Archivos creados en el directorio
-    itinerario_final.txt → Plan diario con actividades, almuerzos, cenas y traslados.
-    lugares.json → Lista de hoteles, bodegas, restaurantes y transportes mencionados.
-    contactos.json → Datos ficticios de contacto (web, teléfono, email).
-    prompt5lite_Mapa.png → Mapa turístico ilustrado estilo vintage.
-    prompt5lite_Flyer.png → Flyer promocional del destino.
-    costos_totales.txt → Registro de tokens consumidos y costo total (texto + imágenes).
+## 📂 Archivos creados en el directorio  
+    itinerario_final.txt → Plan diario con actividades, almuerzos, cenas y traslados.  
+    lugares.json → Lista de hoteles, bodegas, restaurantes y transportes mencionados.  
+    contactos.json → Datos ficticios de contacto (web, teléfono, email).  
+    prompt5lite_Mapa.png → Mapa turístico ilustrado estilo vintage.  
+    prompt5lite_Flyer.png → Flyer promocional del destino.  
+    costos_totales.txt → Registro de tokens consumidos y costo total (texto + imágenes).  
 
-## ⚠️ Advertencia sobre la previsualización del Notebook
+## ⚠️ Advertencia sobre la previsualización del Notebook  
 
 ![warning](https://img.shields.io/badge/Atención-Archivo_pesado-yellow?style=for-the-badge&logo=markdown)
 
