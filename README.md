@@ -168,7 +168,8 @@ Seleccioná el medio de transporte:
 1. Auto  
 2. Micro  
 3. Avión  
-4. Tren  
+4. Tren
+
 Seleccione Medio de Transporte: 3  
 
 Cantidad de personas: 2  
@@ -184,6 +185,7 @@ Seleccioná el nivel de presupuesto:
 2. Medio → Balance entre costo y comodidad.  
 3. Medio-alto → Hoteles 3-4⭐, experiencias destacadas.  
 4. Alto → Lujo, experiencias premium.  
+
 Seleccione el Nivel de Presupuesto: 3  
 
 Seleccioná el modo de viaje:  
@@ -193,11 +195,13 @@ Seleccioná el modo de viaje:
 4. Gastronómico → Comidas y vinos locales.  
 5. Aventura → Deportes y excursiones.  
 6. Familiar → Opciones aptas para todas las edades.  
+
 Seleccione el Modo de Viaje: 5  
 
 ¿En qué temporada vas a viajar?  
 1. Alta (vacaciones, feriados largos, temporada turística)  
 2. Baja (resto del año)  
+
 ¿En qué temporada vas a viajar?: 1  
 
 ## 📋 Resumen generado en consola  
