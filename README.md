@@ -1,6 +1,6 @@
 # Organizador de Escapadas 🧳✨
 
-# Pre-entrega 2 — Fast Prompting en Acción
+# Proyecto Final: Entretejiendo Imaginación y Algoritmos
 **Alumno:** Lucas Centurión  
 **Curso:** Generación de Prompts con IA  
 
