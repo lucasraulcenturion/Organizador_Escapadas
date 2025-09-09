@@ -74,7 +74,7 @@ A partir de datos ingresados por el usuario (destino, fechas, transporte, presup
 ⚙️ Principales Funciones
 
 - Ingreso guiado de datos
-- Validación paso a paso de destino, transporte, cantidad de personas, fechas, presupuesto, modo de viaje, temporada y presencia de niños.
+- Validación paso a paso de destino, transporte, cantidad de personas, fechas, presupuesto, modo de viaje, temporada y presencia de niños.  
 - Generación de Itinerario
 - Creación automática de un plan de viaje detallado por día, incluyendo actividades, traslados, almuerzos y cenas.
 - Ajuste según modo de viaje (Exprímelo, Relax, Cultural, Gastronómico, Aventura, Familiar).
@@ -98,14 +98,14 @@ A partir de datos ingresados por el usuario (destino, fechas, transporte, presup
 - Inclusión de costos fijos por imágenes generadas (ej. USD 0.04).
 - Resumen total de uso y gasto acumulado al finalizar.
 
-✨ Características Destacadas:<br>
-✅ Interactividad completa en consola: validación de inputs, manejo de errores y reintentos.<br>
-✅ Itinerarios realistas y dinámicos: adaptados al perfil del viajero y a la temporada.<br>
-✅ Soporte para viajes familiares: lógica condicional para sugerencias con o sin niños.<br>
-✅ Auditoría inteligente: control automático de calidad con alertas claras y visuales.<br>
-✅ Integración multimodal: combina texto estructurado (JSON + itinerarios) con imágenes turísticas generadas por IA.<br>
-✅ Gestión transparente de costos: registra en archivo .txt el detalle de tokens e importes.<br>
-✅ Exportaciones útiles: itinerario en .txt, lugares en .json, contactos simulados en .json e imágenes en .png.<br>
+✨ Características Destacadas:  
+✅ Interactividad completa en consola: validación de inputs, manejo de errores y reintentos.  
+✅ Itinerarios realistas y dinámicos: adaptados al perfil del viajero y a la temporada.  
+✅ Soporte para viajes familiares: lógica condicional para sugerencias con o sin niños.  
+✅ Auditoría inteligente: control automático de calidad con alertas claras y visuales.  
+✅ Integración multimodal: combina texto estructurado (JSON + itinerarios) con imágenes turísticas generadas por IA.  
+✅ Gestión transparente de costos: registra en archivo .txt el detalle de tokens e importes.  
+✅ Exportaciones útiles: itinerario en .txt, lugares en .json, contactos simulados en .json e imágenes en .png.  
 
 ---
 
