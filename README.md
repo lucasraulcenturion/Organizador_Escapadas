@@ -120,28 +120,28 @@ A partir de datos ingresados por el usuario (destino, fechas, transporte, presup
     pip install -r requirements.txt
 
     * Dependencias principales:
-        ✅ openai
-        ✅ google-generativeai
-        ✅ python-dotenv
-        ✅ Pillow
-        ✅ IPython
+        ✅ openai.
+        ✅ google-generativeai.
+        ✅ python-dotenv.
+        ✅ Pillow.
+        ✅ IPython.
 
 - Configurar variables de entorno
 - Crear un archivo .env en la raíz del proyecto con tus claves:
-        ✅ OPENAI_API_KEY=tu_clave_openai
-        ✅ GOOGLE_API_KEY=tu_clave_google
+        ✅ OPENAI_API_KEY=tu_clave_openai.
+        ✅ GOOGLE_API_KEY=tu_clave_google.
 
 - Correr el notebook en Jupyter si trabajás en modo interactivo.
 - Ingresar los datos requeridos
   El asistente pedirá paso a paso:
-        ✅ Destino
-        ✅ Medio de transporte
-        ✅ Cantidad de personas
-        ✅ Fechas de inicio y regreso
-        ✅ Nivel de presupuesto
-        ✅ Modo de viaje
-        ✅ Presencia de niños menores de 12 años (solo si es viaje familiar)
-        ✅ Temporada (alta o baja)
+        ✅ Destino.
+        ✅ Medio de transporte.
+        ✅ Cantidad de personas.
+        ✅ Fechas de inicio y regreso.
+        ✅ Nivel de presupuesto.
+        ✅ Modo de viaje.
+        ✅ Presencia de niños menores de 12 años (solo si es viaje familiar).
+        ✅ Temporada (alta o baja).
 
 - Resultados generados
     *  Al finalizar, se crean varios archivos en el directorio:
