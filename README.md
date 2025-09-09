@@ -66,13 +66,158 @@ El desarrollo sigue un enfoque de **Fast Prompting**, aplicando mejoras incremen
 
 ---
 
-## 🚀 Próximos pasos
-- Automatizar el ingreso de parámetros (destino, presupuesto, intereses) desde un formulario o dataset.  
-- Mejorar la calidad de las imágenes generadas (mapas más contextuales).  
-- Ampliar el sistema hacia una aplicación web interactiva.  
+## 🗺️ Organizador de Escapadas IA
+
+El Organizador de Escapadas IA es una aplicación interactiva que combina modelos de lenguaje y generación de imágenes para crear planes de viaje personalizados.
+A partir de datos ingresados por el usuario (destino, fechas, transporte, presupuesto, modo de viaje, etc.), el sistema genera un itinerario detallado, controla su calidad, simula datos de contacto de lugares clave y produce recursos gráficos (mapa turístico y flyer).
+
+⚙️ Principales Funciones
+
+- Ingreso guiado de datos
+- Validación paso a paso de destino, transporte, cantidad de personas, fechas, presupuesto, modo de viaje, temporada y presencia de niños.
+- Generación de Itinerario
+- Creación automática de un plan de viaje detallado por día, incluyendo actividades, traslados, almuerzos y cenas.
+- Ajuste según modo de viaje (Exprímelo, Relax, Cultural, Gastronómico, Aventura, Familiar).
+- Reglas especiales: si el modo es Familiar y hay niños → actividades adaptadas 👶; si no hay niños → se evita sugerirlas.
+- Control de Calidad (QA)
+- Auditoría automática del itinerario:
+  * Detección de traslados largos.
+  * Advertencias sobre actividades no aptas para niños.
+  * Recomendaciones según temporada (alta o baja).
+  * JSON de alertas agrupadas por día con íconos visuales.
+- Extracción de Lugares y Servicios
+- Identificación automática de hoteles, restaurantes, bodegas, museos, transportes y otras entidades mencionadas en el itinerario.
+- Simulación de Datos de Contacto
+- Generación de un JSON con datos plausibles (web, teléfono, email) para cada lugar o servicio detectado.
+- Generación de Imágenes
+- Uso de Gemini para producir:
+  * 🗺️ Mapa turístico ilustrado estilo vintage, basado en los puntos clave del itinerario.
+  * 🎨 Flyer promocional moderno del destino.
+- Control de Tokens y Costos
+- Registro de tokens usados y costos de cada prompt textual.
+- Inclusión de costos fijos por imágenes generadas (ej. USD 0.04).
+- Resumen total de uso y gasto acumulado al finalizar.
+
+✨ Características Destacadas
+✅ Interactividad completa en consola: validación de inputs, manejo de errores y reintentos.
+✅ Itinerarios realistas y dinámicos: adaptados al perfil del viajero y a la temporada.
+✅ Soporte para viajes familiares: lógica condicional para sugerencias con o sin niños.
+✅ Auditoría inteligente: control automático de calidad con alertas claras y visuales.
+✅ Integración multimodal: combina texto estructurado (JSON + itinerarios) con imágenes turísticas generadas por IA.
+✅ Gestión transparente de costos: registra en archivo .txt el detalle de tokens e importes.
+✅ Exportaciones útiles: itinerario en .txt, lugares en .json, contactos simulados en .json e imágenes en .png.
 
 ---
 
+🚀 Cómo usar el Organizador de Escapadas IA
+
+- Clonar o descargar el repositorio
+    git clone https://github.com/usuario/organizador-escapadas.git
+    cd organizador-escapadas
+
+- Configurar las dependencias
+    Se recomienda usar un entorno virtual (Conda o venv).
+    pip install -r requirements.txt
+
+    * Dependencias principales:
+        ✅ openai
+        ✅ google-generativeai
+        ✅ python-dotenv
+        ✅ Pillow
+        ✅ IPython
+
+- Configurar variables de entorno
+- Crear un archivo .env en la raíz del proyecto con tus claves:
+        ✅ OPENAI_API_KEY=tu_clave_openai
+        ✅ GOOGLE_API_KEY=tu_clave_google
+
+- Correr el notebook en Jupyter si trabajás en modo interactivo.
+- Ingresar los datos requeridos
+  El asistente pedirá paso a paso:
+        ✅ Destino
+        ✅ Medio de transporte
+        ✅ Cantidad de personas
+        ✅ Fechas de inicio y regreso
+        ✅ Nivel de presupuesto
+        ✅ Modo de viaje
+        ✅ Presencia de niños menores de 12 años (solo si es viaje familiar)
+        ✅ Temporada (alta o baja)
+
+- Resultados generados
+    *  Al finalizar, se crean varios archivos en el directorio:
+            itinerario_final.txt → itinerario detallado.
+            lugares.json → lista de lugares y servicios detectados.
+            contactos.json → datos de contacto simulados.
+            prompt5lite_Mapa.png → mapa turístico ilustrado.
+            prompt5lite_Flyer.png → flyer promocional.
+            costos_totales.txt → registro de tokens y costos (texto + imágenes).
+
+📌 Nota: si corrés el notebook (.ipynb), las imágenes se muestran directamente en las celdas además de guardarse en disco.
+
+## 🖥️ Ejemplo de Ejecución
+
+- Al ejecutar el programa en consola, el usuario completa los datos paso a paso:
+
+👋 Bienvenido al Organizador de Escapadas IA
+Por favor completá los siguientes datos usando SOLO números:
+
+Destino del viaje (texto libre): Mendoza
+
+Seleccioná el medio de transporte:
+1. Auto
+2. Micro
+3. Avión
+4. Tren
+Seleccione Medio de Transporte: 3
+
+Cantidad de personas: 2
+
+Fecha de inicio (ej: 05/09/2025): 20/07/2025
+Hora de llegada (HHMM, ej: 1300 para las 13:00): 1300
+
+Fecha de regreso (ej: 07/09/2025): 22/07/2025
+Hora de regreso (HHMM, ej: 0830 para las 8:30): 1830
+
+Seleccioná el nivel de presupuesto:
+1. Bajo → Opciones económicas, transporte público, hostels.
+2. Medio → Balance entre costo y comodidad.
+3. Medio-alto → Hoteles 3-4⭐, experiencias destacadas.
+4. Alto → Lujo, experiencias premium.
+Seleccione el Nivel de Presupuesto: 3
+
+Seleccioná el modo de viaje:
+1. Exprímelo → Aprovechar al máximo cada hora.
+2. Relax → Ritmo tranquilo, descansos largos.
+3. Cultural → Museos, historia, arquitectura.
+4. Gastronómico → Comidas y vinos locales.
+5. Aventura → Deportes y excursiones.
+6. Familiar → Opciones aptas para todas las edades.
+Seleccione el Modo de Viaje: 5
+
+¿En qué temporada vas a viajar?
+1. Alta (vacaciones, feriados largos, temporada turística)
+2. Baja (resto del año)
+¿En qué temporada vas a viajar?: 1
+
+## 📋 Resumen generado en consola
+
+=== Resumen de tu viaje ===
+Destino: Mendoza
+Medio de transporte: avión
+Duración: 3 días, para 2 personas.
+Llegada: 20/07/2025 a las 13:00
+Regreso: 22/07/2025 a las 18:30
+Presupuesto estimado: medio-alto
+Modo de viaje seleccionado: Aventura
+Temporada: ALTA
+
+## 📂 Archivos creados en el directorio
+    itinerario_final.txt → Plan diario con actividades, almuerzos, cenas y traslados.
+    lugares.json → Lista de hoteles, bodegas, restaurantes y transportes mencionados.
+    contactos.json → Datos ficticios de contacto (web, teléfono, email).
+    prompt5lite_Mapa.png → Mapa turístico ilustrado estilo vintage.
+    prompt5lite_Flyer.png → Flyer promocional del destino.
+    costos_totales.txt → Registro de tokens consumidos y costo total (texto + imágenes).
 
 ## ⚠️ Advertencia sobre la previsualización del Notebook
 
