@@ -1,6 +1,7 @@
 # Organizador de Escapadas 🧳✨
 
 # 🎓 Proyecto Final: Entretejiendo Imaginación y Algoritmos
+  ## 🧠 “La creatividad se encuentra con la IA para diseñar viajes únicos e inteligentes.”
 **Alumno:** Lucas Centurión  
 **Curso:** Generación de Prompts con IA  
 
