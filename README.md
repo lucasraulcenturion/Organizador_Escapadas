@@ -1,6 +1,6 @@
 # Organizador de Escapadas 🧳✨
 
-# Proyecto Final: Entretejiendo Imaginación y Algoritmos
+# 🎓 Proyecto Final: Entretejiendo Imaginación y Algoritmos
 **Alumno:** Lucas Centurión  
 **Curso:** Generación de Prompts con IA  
 
