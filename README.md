@@ -144,13 +144,13 @@ A partir de datos ingresados por el usuario (destino, fechas, transporte, presup
         ✅ Temporada (alta o baja)<br>
 
 - Resultados generados
-    *  Al finalizar, se crean varios archivos en el directorio:
-            itinerario_final.txt → itinerario detallado.
-            lugares.json → lista de lugares y servicios detectados.
-            contactos.json → datos de contacto simulados.
-            prompt5lite_Mapa.png → mapa turístico ilustrado.
-            prompt5lite_Flyer.png → flyer promocional.
-            costos_totales.txt → registro de tokens y costos (texto + imágenes).
+    *  Al finalizar, se crean varios archivos en el directorio:<br>
+            itinerario_final.txt → itinerario detallado.<br>
+            lugares.json → lista de lugares y servicios detectados.<br>
+            contactos.json → datos de contacto simulados.<br>
+            prompt5lite_Mapa.png → mapa turístico ilustrado.<br>
+            prompt5lite_Flyer.png → flyer promocional.<br>
+            costos_totales.txt → registro de tokens y costos (texto + imágenes).<br>
 
 📌 Nota: si corrés el notebook (.ipynb), las imágenes se muestran directamente en las celdas además de guardarse en disco.
 
