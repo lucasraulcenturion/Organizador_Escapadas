@@ -98,7 +98,7 @@ A partir de datos ingresados por el usuario (destino, fechas, transporte, presup
 - Inclusión de costos fijos por imágenes generadas (ej. USD 0.04).
 - Resumen total de uso y gasto acumulado al finalizar.
 
-✨ Características Destacadas
+✨ Características Destacadas:<br>
 ✅ Interactividad completa en consola: validación de inputs, manejo de errores y reintentos.<br>
 ✅ Itinerarios realistas y dinámicos: adaptados al perfil del viajero y a la temporada.<br>
 ✅ Soporte para viajes familiares: lógica condicional para sugerencias con o sin niños.<br>
@@ -119,29 +119,29 @@ A partir de datos ingresados por el usuario (destino, fechas, transporte, presup
     Se recomienda usar un entorno virtual (Conda o venv).
     pip install -r requirements.txt
 
-    * Dependencias principales:
-        ✅ openai.
-        ✅ google-generativeai.
-        ✅ python-dotenv.
-        ✅ Pillow.
-        ✅ IPython.
+    * Dependencias principales:<br>
+        ✅ openai<br>
+        ✅ google-generativeai<br>
+        ✅ python-dotenv<br>
+        ✅ Pillow<br>
+        ✅ IPython<br>
 
 - Configurar variables de entorno
-- Crear un archivo .env en la raíz del proyecto con tus claves:
-        ✅ OPENAI_API_KEY=tu_clave_openai.
-        ✅ GOOGLE_API_KEY=tu_clave_google.
+- Crear un archivo .env en la raíz del proyecto con tus claves:<br>
+        ✅ OPENAI_API_KEY=tu_clave_openai<br>
+        ✅ GOOGLE_API_KEY=tu_clave_google<br>
 
 - Correr el notebook en Jupyter si trabajás en modo interactivo.
 - Ingresar los datos requeridos
-  El asistente pedirá paso a paso:
-        ✅ Destino.
-        ✅ Medio de transporte.
-        ✅ Cantidad de personas.
-        ✅ Fechas de inicio y regreso.
-        ✅ Nivel de presupuesto.
-        ✅ Modo de viaje.
-        ✅ Presencia de niños menores de 12 años (solo si es viaje familiar).
-        ✅ Temporada (alta o baja).
+  El asistente pedirá paso a paso:<br>
+        ✅ Destino<br>
+        ✅ Medio de transporte<br>
+        ✅ Cantidad de personas<br>
+        ✅ Fechas de inicio y regreso<br>
+        ✅ Nivel de presupuesto<br>
+        ✅ Modo de viaje<br>
+        ✅ Presencia de niños menores de 12 años (solo si es viaje familiar)<br>
+        ✅ Temporada (alta o baja)<br>
 
 - Resultados generados
     *  Al finalizar, se crean varios archivos en el directorio:
