@@ -99,13 +99,13 @@ A partir de datos ingresados por el usuario (destino, fechas, transporte, presup
 - Resumen total de uso y gasto acumulado al finalizar.
 
 ✨ Características Destacadas
-✅ Interactividad completa en consola: validación de inputs, manejo de errores y reintentos.
-✅ Itinerarios realistas y dinámicos: adaptados al perfil del viajero y a la temporada.
-✅ Soporte para viajes familiares: lógica condicional para sugerencias con o sin niños.
-✅ Auditoría inteligente: control automático de calidad con alertas claras y visuales.
-✅ Integración multimodal: combina texto estructurado (JSON + itinerarios) con imágenes turísticas generadas por IA.
-✅ Gestión transparente de costos: registra en archivo .txt el detalle de tokens e importes.
-✅ Exportaciones útiles: itinerario en .txt, lugares en .json, contactos simulados en .json e imágenes en .png.
+✅ Interactividad completa en consola: validación de inputs, manejo de errores y reintentos.<br>
+✅ Itinerarios realistas y dinámicos: adaptados al perfil del viajero y a la temporada.<br>
+✅ Soporte para viajes familiares: lógica condicional para sugerencias con o sin niños.<br>
+✅ Auditoría inteligente: control automático de calidad con alertas claras y visuales.<br>
+✅ Integración multimodal: combina texto estructurado (JSON + itinerarios) con imágenes turísticas generadas por IA.<br>
+✅ Gestión transparente de costos: registra en archivo .txt el detalle de tokens e importes.<br>
+✅ Exportaciones útiles: itinerario en .txt, lugares en .json, contactos simulados en .json e imágenes en .png.<br>
 
 ---
 
