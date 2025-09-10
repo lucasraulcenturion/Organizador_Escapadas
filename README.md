@@ -7,6 +7,15 @@
 
 ---
 
+## 🌐 Demo en vivo
+
+Te dejo el link a mi aplicación **Organizador de Escapadas IA** para que la pruebes directamente desde tu navegador:
+
+👉 [Abrir la app en Streamlit] https://escapadas.streamlit.app/
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)][(https://escapadas.streamlit.app/)]
+---
+
 ## 📌 Introducción
 Este proyecto corresponde a la **Pre-entrega 2** de la cursada.  
 El desafío consiste en aplicar la técnica de **Fast Prompting** para resolver un problema real mediante la construcción iterativa de prompts y la optimización de sus resultados.  
