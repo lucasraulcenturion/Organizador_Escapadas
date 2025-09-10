@@ -1,7 +1,0 @@
-streamlit
-openai
-google-generativeai
-python-dotenv
-Pillow
-ipython
-requests
