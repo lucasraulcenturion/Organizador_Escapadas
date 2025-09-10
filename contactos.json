@@ -1,191 +1,58 @@
 [
   {
-    "nombre": "El Pingüino Feliz",
+    "nombre": "Hotel Llao Llao",
+    "tipo": "hotel",
+    "web": "https://www.llaollao.com",
+    "telefono": "+54 294 444 0000",
+    "email": "reservas@llaollao.com"
+  },
+  {
+    "nombre": "El Boliche de Alberto",
     "tipo": "restaurante",
-    "web": "http://www.elpinguinofeliz.com.ar",
-    "telefono": "+54 9 280 123 4567",
-    "email": "info@elpinguinofeliz.com.ar"
+    "web": "https://www.elbolichedalberto.com",
+    "telefono": "+54 294 444 1234",
+    "email": "info@elbolichedalberto.com"
   },
   {
-    "nombre": "Café de la Costa",
-    "tipo": "restaurante",
-    "web": "http://www.cafedelacosta.com.ar",
-    "telefono": "+54 9 280 234 5678",
-    "email": "contacto@cafedelacosta.com.ar"
+    "nombre": "Museo de la Patagonia",
+    "tipo": "museo",
+    "web": "https://www.museopatagonia.com",
+    "telefono": "+54 294 444 5678",
+    "email": "contacto@museopatagonia.com"
   },
   {
-    "nombre": "Parrilla del Mar",
-    "tipo": "restaurante",
-    "web": "http://www.parrilladelmar.com.ar",
-    "telefono": "+54 9 280 345 6789",
-    "email": "reservas@parrilladelmar.com.ar"
-  },
-  {
-    "nombre": "La Casa del Pescador",
-    "tipo": "restaurante",
-    "web": "http://www.lacasadelpescador.com.ar",
-    "telefono": "+54 9 280 456 7890",
-    "email": "info@lacasadelpescador.com.ar"
-  },
-  {
-    "nombre": "Comedor de la Reserva",
-    "tipo": "restaurante",
-    "web": "http://www.comedordelareserva.com.ar",
-    "telefono": "+54 9 280 567 8901",
-    "email": "contacto@comedordelareserva.com.ar"
-  },
-  {
-    "nombre": "Snack Bar Punta Tombo",
-    "tipo": "restaurante",
-    "web": "http://www.snackbarpuntatombo.com.ar",
-    "telefono": "+54 9 280 678 9012",
-    "email": "info@snackbarpuntatombo.com.ar"
-  },
-  {
-    "nombre": "Restaurante La Bahía",
-    "tipo": "restaurante",
-    "web": "http://www.restaurante labahia.com.ar",
-    "telefono": "+54 9 280 789 0123",
-    "email": "reservas@restaurantelabahia.com.ar"
-  },
-  {
-    "nombre": "Café del Mar",
-    "tipo": "restaurante",
-    "web": "http://www.cafedelmar.com.ar",
-    "telefono": "+54 9 280 890 1234",
-    "email": "contacto@cafedelmar.com.ar"
-  },
-  {
-    "nombre": "Pizzería La Playa",
-    "tipo": "restaurante",
-    "web": "http://www.pizzerialaplaya.com.ar",
-    "telefono": "+54 9 280 901 2345",
-    "email": "info@pizzerialaplaya.com.ar"
-  },
-  {
-    "nombre": "Restaurante Familiar",
-    "tipo": "restaurante",
-    "web": "http://www.restaurantefamiliar.com.ar",
-    "telefono": "+54 9 280 012 3456",
-    "email": "contacto@restaurantefamiliar.com.ar"
-  },
-  {
-    "nombre": "Parrilla del Faro",
-    "tipo": "restaurante",
-    "web": "http://www.parrilladelfaro.com.ar",
-    "telefono": "+54 9 280 123 4568",
-    "email": "info@parrilladelfaro.com.ar"
-  },
-  {
-    "nombre": "Café y Pastelería",
-    "tipo": "restaurante",
-    "web": "http://www.cafeypasteleria.com.ar",
-    "telefono": "+54 9 280 234 5679",
-    "email": "contacto@cafeypasteleria.com.ar"
-  },
-  {
-    "nombre": "Restaurante El Mar",
-    "tipo": "restaurante",
-    "web": "http://www.restauranteelmar.com.ar",
-    "telefono": "+54 9 280 345 6780",
-    "email": "info@restauranteelmar.com.ar"
-  },
-  {
-    "nombre": "Bistró Familiar",
-    "tipo": "restaurante",
-    "web": "http://www.bistrofamiliar.com.ar",
-    "telefono": "+54 9 280 456 7891",
-    "email": "contacto@bistrofamiliar.com.ar"
-  },
-  {
-    "nombre": "Cocina Patagónica",
-    "tipo": "restaurante",
-    "web": "http://www.cocinapatagonica.com.ar",
-    "telefono": "+54 9 280 567 8902",
-    "email": "info@cocinapatagonica.com.ar"
-  },
-  {
-    "nombre": "Comida Rápida Familiar",
-    "tipo": "restaurante",
-    "web": "http://www.comidarapidafamiliar.com.ar",
-    "telefono": "+54 9 280 678 9013",
-    "email": "contacto@comidarapidafamiliar.com.ar"
-  },
-  {
-    "nombre": "Comedor de la Granja",
-    "tipo": "restaurante",
-    "web": "http://www.comedordelagranja.com.ar",
-    "telefono": "+54 9 280 789 0124",
-    "email": "info@comedordelagranja.com.ar"
-  },
-  {
-    "nombre": "Snack Bar",
-    "tipo": "restaurante",
-    "web": "http://www.snackbar.com.ar",
-    "telefono": "+54 9 280 890 1235",
-    "email": "contacto@snackbar.com.ar"
-  },
-  {
-    "nombre": "Pescados y Mariscos",
-    "tipo": "restaurante",
-    "web": "http://www.pescadosymariscos.com.ar",
-    "telefono": "+54 9 280 901 2346",
-    "email": "info@pescadosymariscos.com.ar"
-  },
-  {
-    "nombre": "Parrilla Familiar",
-    "tipo": "restaurante",
-    "web": "http://www.parrillafamiliar.com.ar",
-    "telefono": "+54 9 280 012 3457",
-    "email": "contacto@parrillafamiliar.com.ar"
-  },
-  {
-    "nombre": "Restaurante de la Reserva",
-    "tipo": "restaurante",
-    "web": "http://www.restaurantedelareserva.com.ar",
-    "telefono": "+54 9 280 123 4569",
-    "email": "info@restaurantedelareserva.com.ar"
-  },
-  {
-    "nombre": "Cafetería Familiar",
-    "tipo": "restaurante",
-    "web": "http://www.cafeteriafamiliar.com.ar",
-    "telefono": "+54 9 280 234 5670",
-    "email": "contacto@cafeteriafamiliar.com.ar"
-  },
-  {
-    "nombre": "Cocina Regional",
-    "tipo": "restaurante",
-    "web": "http://www.cocinaregional.com.ar",
-    "telefono": "+54 9 280 345 6781",
-    "email": "info@cocinaregional.com.ar"
-  },
-  {
-    "nombre": "Café y Comida",
-    "tipo": "restaurante",
-    "web": "http://www.cafeycomida.com.ar",
-    "telefono": "+54 9 280 456 7892",
-    "email": "contacto@cafeycomida.com.ar"
-  },
-  {
-    "nombre": "Reserva Natural Punta Tombo",
-    "tipo": "actividad",
-    "web": "http://www.reservanaturalpuntatombo.com.ar",
-    "telefono": "+54 9 280 567 8903",
-    "email": "info@reservanaturalpuntatombo.com.ar"
-  },
-  {
-    "nombre": "Excursiones Punta Tombo",
+    "nombre": "Cerro Catedral",
     "tipo": "excursión",
-    "web": "http://www.excursionespuntatombo.com.ar",
-    "telefono": "+54 9 280 678 9014",
-    "email": "contacto@excursionespuntatombo.com.ar"
+    "web": "https://www.cerro-catedral.com",
+    "telefono": "+54 294 444 9100",
+    "email": "info@cerro-catedral.com"
   },
   {
-    "nombre": "Transporte Punta Tombo",
-    "tipo": "transporte",
-    "web": "http://www.transportepuntatombo.com.ar",
-    "telefono": "+54 9 280 789 0125",
-    "email": "info@transportepuntatombo.com.ar"
+    "nombre": "Parque Nacional Nahuel Huapi",
+    "tipo": "parque",
+    "web": "https://www.parquenahuelhuapi.gov.ar",
+    "telefono": "+54 294 444 1111",
+    "email": "info@parquenahuelhuapi.gov.ar"
+  },
+  {
+    "nombre": "Café de la Plaza",
+    "tipo": "café",
+    "web": "https://www.cafedelaplaza.com",
+    "telefono": "+54 294 444 2222",
+    "email": "contacto@cafedelaplaza.com"
+  },
+  {
+    "nombre": "La Fonda del Tío",
+    "tipo": "restaurante",
+    "web": "https://www.lafondadeltio.com",
+    "telefono": "+54 294 444 3333",
+    "email": "reservas@lafondadeltio.com"
+  },
+  {
+    "nombre": "Excursiones en Barco",
+    "tipo": "actividad",
+    "web": "https://www.excursionesbarco.com",
+    "telefono": "+54 294 444 4444",
+    "email": "info@excursionesbarco.com"
   }
 ]
