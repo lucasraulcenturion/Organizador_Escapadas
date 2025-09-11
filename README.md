@@ -24,12 +24,12 @@ El problema elegido es la **planificación rápida de escapadas de 2–3 días**
 ---
 
 ## 🎯 Objetivos
-- Desarrollar un sistema de planificación de viajes cortos utilizando **IA generativa**.  
-- Mostrar la **evolución de prompts** en 6 versiones (Prompt 1 → Prompt 5 Lite).  
-- Incorporar progresivamente técnicas de prompting: zero-shot, structured JSON, role assignment, chain-of-prompts.  
-- Validar resultados con parsing de JSON y control de errores.  
-- Optimizar costos en tokens mediante modularización y versión Lite.  
-- Generar **recursos visuales** (mapa y flyer) con Gemini adaptados al destino.  
+- **Diseñar y desarrollar una aplicación funcional** capaz de generar itinerarios de viaje personalizados a partir de datos de entrada simples.  
+- **Integrar modelos de IA de distintos proveedores**: OpenAI para la generación de texto y Gemini (REST) para la creación de imágenes.  
+- **Optimizar la experiencia de usuario**, incorporando validaciones, auditoría automática de itinerarios y una interfaz intuitiva con Streamlit.  
+- **Proporcionar resultados completos y descargables**, incluyendo itinerario detallado, advertencias relevantes, contactos simulados y recursos visuales (mapa turístico y flyer).  
+- **Controlar el consumo y los costos asociados**, priorizando eficiencia y calidad en la generación de contenido.  
+- **Entregar un producto final listo para uso práctico**, que combine análisis, creatividad y accesibilidad en una misma herramienta.  
 
 ---
 
