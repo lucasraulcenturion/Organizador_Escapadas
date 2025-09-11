@@ -16,10 +16,12 @@ Te dejo el link a mi aplicación **Organizador de Escapadas IA** para que la pru
 ---
 
 ## 📌 Introducción
-Este proyecto corresponde a la **Pre-entrega 2** de la cursada.  
-El desafío consiste en aplicar la técnica de **Fast Prompting** para resolver un problema real mediante la construcción iterativa de prompts y la optimización de sus resultados.  
 
-El problema elegido es la **planificación rápida de escapadas de 2–3 días**, considerando parámetros como destino, cantidad de días, presupuesto, intereses y modo de viaje.  
+El presente trabajo final consiste en el desarrollo de una aplicación llamada **Organizador de Escapadas IA**, una herramienta que combina modelos de lenguaje e imagen para asistir en la planificación de viajes de manera automatizada.  
+La app permite generar un **itinerario detallado** a partir de datos básicos ingresados por el usuario (destino, fechas, presupuesto, modo de viaje, etc.), incorporando además un módulo de **auditoría automática** que señala advertencias relevantes (traslados largos, exceso de actividades o actividades no aptas para niños).  
+Como complemento, la aplicación enriquece la experiencia con **contactos simulados** de hoteles, restaurantes y servicios, y la **generación de imágenes personalizadas** (mapa turístico ilustrado y flyer promocional), todo en una interfaz accesible desarrollada en **Streamlit**.  
+El proyecto se apoyó en la metodología de **Fast Prompting**, integrando progresivamente mejoras hasta consolidar un pipeline estable y optimizado. Se emplearon **modelos de OpenAI** para la parte textual y **Gemini (REST)** para la creación de imágenes, buscando siempre un balance entre calidad, eficiencia y costos.  
+El resultado es una aplicación práctica y lista para el usuario final, que combina **planificación, análisis y creatividad** en un solo entorno interactivo.
 
 ---
 
