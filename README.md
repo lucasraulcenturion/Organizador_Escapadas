@@ -46,7 +46,12 @@ El problema elegido es la **planificación rápida de escapadas de 2–3 días**
 ---
 
 ## ⚙️ Metodología
-El desarrollo sigue un enfoque de **Fast Prompting**, aplicando mejoras incrementales en cada prompt:  
+Para el desarrollo de este trabajo final se aplicó un enfoque de **Fast Prompting**, basado en la iteración y mejora progresiva de los prompts hasta construir un pipeline sólido y optimizado.  
+Cada etapa fue incorporando nuevos aprendizajes y funcionalidades, lo que permitió consolidar la versión final de la app.  
+Este proceso no solo se enfocó en mejorar la calidad de las respuestas, sino también en optimizar la experiencia de uso, integrar múltiples modelos de IA (OpenAI para texto y Gemini para imágenes) y controlar los costos asociados.  
+Gracias a esta metodología iterativa, se alcanzó una aplicación funcional y lista para el usuario final: el **Organizador de Escapadas IA**.  
+
+Las fases del proceso fueron: 
 
 1. **Prompt 1 (Base):** salida libre sin estructura (*zero-shot*).  
 2. **Prompt 2 (Intermedio):** más parámetros y desglose de costos (*instruction prompting*).  
@@ -58,13 +63,21 @@ El desarrollo sigue un enfoque de **Fast Prompting**, aplicando mejoras incremen
 ---
 
 ## 📂 Organización del notebook
-- El notebook está dividido en **bloques de Markdown y código**.  
-- Cada Prompt está precedido por un **análisis técnico** que explica:  
-  - Descripción técnica.  
-  - Tecnología aplicada.  
-  - Metodología.  
-  - Mejoras respecto al prompt anterior.  
-- Los resultados se muestran tanto en consola como en **imágenes inline**.  
+El notebook está organizado en bloques que reflejan el flujo completo de la aplicación **Organizador de Escapadas IA**:
+1. **Configuración inicial**  
+   Importación de librerías, carga de claves de API y definición de funciones auxiliares.
+2. **Entrada de datos del viaje**  
+   Formulario para ingresar destino, fechas, transporte, presupuesto, modo de viaje y temporada.
+3. **Generación de itinerario**  
+   Uso de OpenAI para crear un itinerario detallado en texto, adaptado a las condiciones ingresadas.
+4. **Auditoría del itinerario (QA)**  
+   Validación automática con alertas sobre traslados largos, exceso de actividades o actividades no aptas para niños.
+5. **Contactos simulados**  
+   Creación de datos de contacto verosímiles para hoteles, restaurantes y actividades detectadas.
+6. **Imágenes con IA**  
+   Prompts ajustados para Gemini con generación de dos recursos visuales: mapa turístico ilustrado y flyer promocional.
+7. **Resultados finales**  
+   Consolidación de itinerario, advertencias, contactos e imágenes, listos para descarga o visualización en la app.
 
 ---
 
